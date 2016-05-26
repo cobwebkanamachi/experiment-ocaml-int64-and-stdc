@@ -7,8 +7,8 @@ output:<BR>
 max_int in Int64:7fffffffffffffff<BR>
 sub max_int (max_int sub 2) in Int64:2 ==> this is max_int - (max_int -2)<BR>
 add (max_int sub 2) 2 in Int64:7fffffffffffffff ==> this is back to max_int<BR>
-max_int mul 2 in Int64:fffffffffffffffe ==> max_int * 2<BR>
-max_int mul 2+1 in Int64:ffffffffffffffff ==> max_int *2 +1 in unsigned format(print).<BR>
+max_int mul 2 in Int64:fffffffffffffffe ==> max_int x 2<BR>
+max_int mul 2+1 in Int64:ffffffffffffffff ==> max_int x 2 +1 in unsigned format(print).<BR>
 <BR>
 gcc b.c<BR>
 ./a.out<BR>
