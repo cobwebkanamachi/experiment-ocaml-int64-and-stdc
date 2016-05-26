@@ -30,8 +30,11 @@ max_int mul 2 in Int64:fffffffffffffffe<BR>
 max_int mul 2+1 in Int64:ffffffffffffffff<BR>
 7fffffff<BR>
 7fffffff00000000<BR>
-homework:<BR>
+<BR>
+Int64 is not unsigned in nature.<BR>
 how to coordinate int64 is signed, but needed unsigned.<BR>
+IO or sprintf or bit operation may be solve this, but not convinced or prooved that.<BR>
+bit operation more smooth if you use this bellow.<BR>
 https://people.redhat.com/~rjones/bitstring/html/Bitstring.html<BR>
 says "See the integer types section below for how these are mapped to the OCaml int/int32/int64 types. "<BR>
 <BR>
