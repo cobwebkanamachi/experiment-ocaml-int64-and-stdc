@@ -16,10 +16,10 @@ gcc b.c<BR>
 output:<BR>
 64bit unsined long full:0xffffffffffffffff<BR>
 64bit unsined long full - 2:0xfffffffffffffffd<BR>
-64bit sined long full*2:0xfffffffffffffffe<BR>
-64bit sined long full*2+1:0xffffffffffffffff<BR>
-64bit sined long full*2+1 & head of 16:0xffffffff00000000<BR>
-64bit sined long full*2+1 & tail of 16:0xffffffff<BR>
+64bit sined long full mul 2:0xfffffffffffffffe<BR>
+64bit sined long full mul 2+1:0xffffffffffffffff<BR>
+64bit sined long full mul 2+1 & head of 16:0xffffffff00000000<BR>
+64bit sined long full mul 2+1 & tail of 16:0xffffffff<BR>
 <BR>
 consideration:<BR>
 1. type conversion is not safe, but if precisely controled.<BR>
