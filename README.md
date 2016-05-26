@@ -22,7 +22,7 @@ output:<BR>
 64bit sined long full*2+1 & tail of 16:0xffffffff<BR>
 <BR>
 consideration:<BR>
-1. type conversion is not safe, but if precisely controled.
-2. type conversion imediately in use ocassion.
-3. harmful sideeffect or numeric processing fault.
+1. type conversion is not safe, but if precisely controled.<BR>
+2. type conversion imediately in use ocassion.<BR>
+3. harmful sideeffect or numeric processing fault.<BR>
 
